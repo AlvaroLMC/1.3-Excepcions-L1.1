@@ -18,14 +18,14 @@ public class Main {
         months.add(new Month("May"));
         months.add(new Month("June"));
         months.add(new Month("July"));
-        months.add(new Month("August"));
         months.add(new Month("September"));
+        months.add(new Month("October"));
         months.add(new Month("November"));
         months.add(new Month("December"));
 
         System.out.println(months);
 
-        months.add(9, new Month("October"));
+        months.add(7, new Month("August"));
 
         System.out.println(months);
 
